@@ -34,6 +34,7 @@
         android:orientation="horizontal">
 
         <EditText
+            android:id="@+id/et_message"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -45,10 +46,12 @@
             android:paddingBottom="@dimen/spacing_normal_16"
             android:layout_marginLeft="@dimen/spacing_normal_16"
             android:layout_marginRight="@dimen/spacing_normal_16"
+            android:imeOptions="actionDone"
             >
         </EditText>
 
         <ImageView
+            android:id="@+id/iv_sendBtn"
             android:layout_width="@dimen/spacing_large_24"
             android:layout_height="@dimen/spacing_large_24"
             android:src="@drawable/ic_baseline_send_24"
